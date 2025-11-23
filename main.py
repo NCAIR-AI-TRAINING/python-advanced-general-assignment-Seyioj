@@ -1,6 +1,8 @@
 from datetime import datetime
 import os
 
+# Feature: Added 5-minute wait time rule
+
 class DuplicateVisitorError(Exception):
     pass
 
